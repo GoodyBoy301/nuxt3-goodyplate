@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "type": "commonjs",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "@nuxt/image": "^1.8.0",
+    "@types/dat.gui": "^0.7.13",
+    "@types/vue-markdown": "^2.2.4",
+    "dat.gui": "^0.7.9",
+    "notion-to-md": "^3.1.1",
+    "nuxt": "^3.12.4",
+    "vue": "latest",
+    "vue-markdown": "^2.2.4"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/mdc": "^0.8.3",
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.5",
+    "include-media": "^2.0.0",
+    "sass-embedded": "^1.77.8"
+  }
+}
