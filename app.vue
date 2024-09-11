@@ -31,4 +31,8 @@ const computedPageMeta = computed(() => {
 })
 
 useHead(computedPageMeta)
+
+onMounted(() => {
+  const scroll = new LenisScroll()
+})
 </script>

@@ -2,7 +2,6 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Draggable } from "gsap/Draggable"
 import { Observer } from "gsap/Observer"
-import { defineNuxtPlugin } from "nuxt/dist/app/nuxt"
 
 export default defineNuxtPlugin(() => {
   gsap.registerPlugin(Observer, ScrollTrigger)
