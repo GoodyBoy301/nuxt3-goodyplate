@@ -9,9 +9,12 @@
     "dat.gui": "^0.7.9",
     "notion-to-md": "^3.1.1",
     "nuxt": "^3.12.4",
+    "nuxt-mail": "^5.1.1",
     "nuxt-svgo": "^4.0.6",
     "vue": "latest",
-    "vue-markdown": "^2.2.4"
+    "vue-markdown": "^2.2.4",
+    "vue3-lottie": "^3.3.1",
+    "zustand-vue": "^1.0.0-beta.24"
   },
   "private": true,
   "scripts": {

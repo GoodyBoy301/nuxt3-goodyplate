@@ -76,3 +76,5 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 <!-- TODO -->
 <!-- ADD NUXT-SPLIT-TYPE -->
+<!-- ADD EMAIL -->
+<!-- ADD ZUSTAND-->
